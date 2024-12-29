@@ -18,8 +18,6 @@ The paraphrasing tool can be applied to various NLP tasks, including:
 
 Content rewriting
 
-Summarization
-
 Plagiarism detection
 
 # Methodology
