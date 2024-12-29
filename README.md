@@ -1,9 +1,10 @@
 # Paraphrasing_Tool_LLM
-Overview
+
+# Overview
 
 This repository contains the implementation of a paraphrasing tool designed to leverage the advanced capabilities of LLaMA models (1B, 3B, and 8B) for high-quality document rewriting. The tool employs prompt engineering techniques to enhance paraphrasing accuracy, mitigate repetitive outputs, and address the challenges associated with fine-tuning large transformer-based models.
 
-Features
+# Features
 
 Multi-Scale Model Support: Utilizes LLaMA models of varying scales (1B, 3B, and 8B) to provide a balance between computational efficiency and paraphrasing quality.
 
@@ -11,7 +12,7 @@ Prompt Engineering: Implements iterative prompt design for improved paraphrasing
 
 High-Quality Outputs: Ensures semantic similarity, fluency, and grammatical accuracy in paraphrased text.
 
-Applications
+# Applications
 
 The paraphrasing tool can be applied to various NLP tasks, including:
 
@@ -21,7 +22,7 @@ Summarization
 
 Plagiarism detection
 
-Methodology
+# Methodology
 
 1. Model Selection
 
@@ -53,9 +54,7 @@ Fluency: Ensuring natural language flow.
 
 Grammatical Accuracy: Avoiding syntactic errors.
 
-Results
-
-Key Findings
+# Results
 
 Improved Accuracy with Larger Models: The LLaMA 8B model consistently produced the most coherent and contextually accurate paraphrases.
 
@@ -63,7 +62,7 @@ Reduced Repetition: Prompt engineering significantly mitigated repetitive output
 
 Efficiency Considerations: While the 1B model is suitable for resource-constrained environments, the quality of outputs improved with larger models.
 
-Usage
+# Usage
 
 Load the desired LLaMA model (1B, 3B, or 8B).
 
@@ -73,13 +72,13 @@ Configure the prompt settings to optimize output quality.
 
 Run the paraphrasing script to generate rewritten content.
 
-Limitations
+# Limitations
 
 Resource Requirements: Larger models like the 8B variant require significant computational resources.
 
 Complex Inputs: While effective, paraphrasing of highly technical or ambiguous texts may still require manual refinement.
 
-Future Work
+# Future Work
 
 Explore fine-tuning techniques to further enhance model performance.
 
